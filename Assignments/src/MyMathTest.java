@@ -1,3 +1,13 @@
+/*
+ * Colin Murphy
+ * CIS254
+ * 6-28-15
+ * Harden
+ * 
+ * This program asks the user whether they want to output the prime numbers
+ * from 1 to 1000 or the perfect numbers from 1 to 10,000 then outputs the decision.
+ */
+
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;

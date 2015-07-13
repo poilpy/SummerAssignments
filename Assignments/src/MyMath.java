@@ -1,6 +1,16 @@
+/*
+ * Colin Murphy
+ * CIS254
+ * 6-28-15
+ * Harden
+ * 
+ * This class stores the methods for outputting whether a number is perfect
+ * or prime.
+ */
 
 public class MyMath {
 	
+	//isPerfect returns a number if it is perfect and 0 if it isn't; number is the number checked
 	public static int isPerfect(int number){
 		
 		int sum = 0;
@@ -17,6 +27,12 @@ public class MyMath {
 			return 0;
 	}
 	
+	
+	
+	
+	
+	
+	//isPrime returns a number if it is prime and 0 if it isn't; number is the number checked
 	public static int isPrime(int number){
 		
 		int pointOfDivision = 0;
